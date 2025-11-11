@@ -1,0 +1,79 @@
+<!doctype html>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<h1 class="logo">Shammaq Films</h1>
+<nav class="nav">
+<a href="index.html" class="nav-link active">Home</a>
+<a href="skills.html" class="nav-link">Skills</a>
+<a href="projects.html" class="nav-link">Projects</a>
+<link rel="stylesheet" href="style.css">
+
+</nav>
+<div class="controls">
+<label class="theme-switch">
+<input id="themeToggle" type="checkbox">
+<span class="slider"></span>
+</label>
+</div>
+</div>
+</header>
+
+
+<main class="container">
+<section class="hero">
+<div class="hero-left">
+<img src="Shammaq.jpg" alt="Profile" class="profile-pic">
+</div>
+<div class="hero-right">
+<h2>Hi — I’m Shammaq</h2>
+<p class="intro">I am a photographer that covers fashion shoots, wedding and corporate events. I specialise in creative product and jewelry photography and provide full editing & album design services.</p>
+
+
+<div class="mini-counters">
+<div class="counter">
+<div class="counter-value" id="liveClock">--:--:--</div>
+<div class="counter-label">Current Time</div>
+</div>
+<div class="counter">
+<div class="counter-value" id="sessionTimer">00:00</div>
+<div class="counter-label">This Session</div>
+</div>
+</div>
+
+
+<div class="cta-row">
+<a class="btn" href="projects.html">View Projects</a>
+<a class="btn ghost" href="skills.html">See Skills</a>
+</div>
+</div>
+</section>
+
+
+<section class="contact" id="contact">
+<h3>Contact Me</h3>
+<form id="contactForm" novalidate>
+<div class="form-row">
+<input type="text" id="name" name="name" placeholder="Your name">
+<input type="email" id="email" name="email" placeholder="Your email">
+</div>
+<textarea id="message" name="message" placeholder="Your message" rows="5"></textarea>
+<div class="form-row actions">
+<button type="submit" class="btn">Send Message</button>
+<div id="formMsg" aria-live="polite"></div>
+</div>
+</form>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<p>© <span id="year"></span> Shammaq Faisal — Photographer & Editor</p>
+</div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
